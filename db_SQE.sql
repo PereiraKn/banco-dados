@@ -37,6 +37,10 @@ insert into cursos (nome_curso, carga_horaria) values
 ('Administração', 2000),
 ('Ciências contábeis', 3000);
 
+update cursos
+set carga_horaria = 2800
+where nome_curso = 'Administração';
+
 insert into alunos (nome_aluno, email, id_curso) values
 ('Breno pereira', 'breno.pereira@email.com', 1),
 ('Maria oliveira', 'maria.oliveira@email.com', 2),
