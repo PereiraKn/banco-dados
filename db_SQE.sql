@@ -1,4 +1,5 @@
 create database sqe;
+
 use sqe;
 
 create table cursos (
